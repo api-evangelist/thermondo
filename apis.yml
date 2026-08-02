@@ -1,8 +1,6 @@
 aid: thermondo
 name: Thermondo
-description: 'Thermondo is a company surfaced as a portfolio company of hv-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer; climate-energy. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Thermondo is Germany''s largest residential heating installer, focused on heat pumps, photovoltaic (solar) systems, home energy management (thermondo smart), dynamic electricity tariffs, financing and subsidy assistance, and maintenance and repair services for homeowners. Founded in 2013 and headquartered in Berlin, the company employs over 1,200 staff and has completed installations for more than 55,000 customers. Thermondo is a consumer-facing climate-energy provider and a portfolio company of HV Capital. It publishes no public developer API or documentation surface; it does operate a security.txt vulnerability-disclosure program and a GitHub organization. This profile was added to the API Evangelist network from HV Capital''s portfolio and enriched with the public security surface that could be verified.'
 url: https://raw.githubusercontent.com/api-evangelist/thermondo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +8,52 @@ x-backed-by:
 - hv-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer; Climate Energy
+- Heat Pumps
+- Solar
+- Home Energy
+- Energy Management
+- Climate Tech
+image: https://www.thermondo.de/favicon.ico
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/thermondo-domain-security.yml
+- type: Website
+  url: https://www.thermondo.de/
+- type: SecurityTxt
+  url: well-known/thermondo-security.txt
+- type: VulnerabilityDisclosure
+  url: security/thermondo-vulnerability-disclosure.yml
+- type: Security
+  url: https://github.com/thermondo/vulnerability-disclosure-policy
+- type: WellKnown
+  url: well-known/thermondo-well-known.yml
+- type: GitHubOrganization
+  url: https://github.com/thermondo
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

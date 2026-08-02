@@ -1,0 +1,5 @@
+Contact: mailto:security@thermondo.de
+Expires: 2026-12-31T22:59:00.000Z
+Preferred-Languages: en,de
+Canonical: https://www.thermondo.de/.well-known/security.txt
+Policy: https://github.com/thermondo/vulnerability-disclosure-policy
